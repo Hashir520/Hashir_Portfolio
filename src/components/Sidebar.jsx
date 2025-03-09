@@ -44,7 +44,7 @@ export default function Sidebar() {
 
             </div>
             <h2 className="text-xl font-bold text-white mb-1">Hashir Shahid</h2>
-            <p className="text-lg text-white">React Developer</p>
+            <p className="text-lg text-white">Software Engineer</p>
           </div>
 
           {/* Navigation */}
