@@ -253,6 +253,24 @@ function App() {
   >
     <SkillBadge name="CSS" level="Expert" />
   </motion.div>
+
+              <motion.div
+    initial={{ opacity: 0, x: 200 }}
+    whileInView={{ opacity: 1, x: 0 }}
+    viewport={{ once: false }}
+    transition={{ duration: 1.3, ease: "easeInOut" }}
+  >
+    <SkillBadge name="Rust Developer" level="Beginner" />
+  </motion.div>
+
+              <motion.div
+    initial={{ opacity: 0, x: 200 }}
+    whileInView={{ opacity: 1, x: 0 }}
+    viewport={{ once: false }}
+    transition={{ duration: 1.3, ease: "easeInOut" }}
+  >
+    <SkillBadge name="PostgreSQL" level="Beginner" />
+  </motion.div>
 </div>
 
           </div>
